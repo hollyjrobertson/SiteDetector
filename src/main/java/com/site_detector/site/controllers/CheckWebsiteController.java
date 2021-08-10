@@ -27,7 +27,6 @@ public class CheckWebsiteController {
         String url = formatUrl(site.getUrl());
         site.setSiteStatus(getWebsiteStatus(url));
         Website statusWebsite = new Website(url, site.getSiteStatus());
-        System.out.println("Status of website = " + statusWebsite.getSiteStatus());
 
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("website_information");
@@ -40,7 +39,6 @@ public class CheckWebsiteController {
         return formattedWebsite;
     }
     private String getWebsiteStatus(String formattedWebsite) {
-        System.out.println("URL from UI = " + formattedWebsite);
         String result = "";
         try {
             URL urlObj = new URL(formattedWebsite);
@@ -49,7 +47,6 @@ public class CheckWebsiteController {
             conn.connect();
             int responseCodeCategory = conn.getResponseCode() / 100;
             if (responseCodeCategory != 2 || responseCodeCategory != 3) {
-                System.out.println("HELLO " + responseCodeCategory);
                 result = "DOWN";
             }
             if (responseCodeCategory == 2 || responseCodeCategory == 3) {
