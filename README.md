@@ -17,15 +17,21 @@ Website: http://hollyjrobertson.com
 8. Click Submit
 9. View Site Status
 10. CONGRATULATIONS!
+
+![image](https://user-images.githubusercontent.com/31171295/128935359-631b4365-d8d6-4e2a-8126-cc0680ff8c91.png)
+
   
 # Troubleshooting  
 Only for VS Code  
 If you get the endless spinning wheel for the Java Language Server
+![image](https://user-images.githubusercontent.com/31171295/128935190-0b5d6869-db77-4a4c-a061-0fb80a406d10.png)
   1. Go to Enabled Extensions (CTRL+SHIFT+P)
   2. Disable Debugger for Java
-  3. If you're prompted to "Disable All" - Click "Disable All"
-  4. Reload / Restart VS Code
-  5. Go to Disabled Extensions (CTRL+SHIFT+P)
-  6. Enable "Debugger for Java"
+  3. If you're prompted to "Disable All" - Click "Disable All"  
+  ![error2](https://user-images.githubusercontent.com/31171295/128935290-de1f2ab7-d91d-4b17-aacb-3ff06392f8ef.png)
+
   5. Reload / Restart VS Code
-  6. Proceed to run main method
+  6. Go to Disabled Extensions (CTRL+SHIFT+P)
+  7. Enable "Debugger for Java"
+  8. Reload / Restart VS Code
+  9. Proceed to run main method
