@@ -12,7 +12,7 @@ Website: http://hollyjrobertson.com
 4. Navigate to <i>SiteApplication.java</i>  
   a. <i>(src/main/java/com/site_detector/SiteApplication.java)</i>
 5. Run <i>main</i> method
-6. Open browser localhost:8080
+6. Open browser http://localhost:8080/
 7. Type in a url (ex: medium.com)
 8. Click Submit
 9. View Site Status
