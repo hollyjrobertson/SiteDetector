@@ -8,9 +8,9 @@ Website: http://hollyjrobertson.com
 # Instructions
 1. Download GitHub Repo as Zip File
 2. Extract All files to local directory
-3. Open SiteDetector-main in your IDE (I used Visual Studio Code)
-4. Navigate to SiteApplication.java  
-  a. (src/main/java/com/site_detector/SiteApplication.java)
+3. Open <i>SiteDetector-main</i> in your IDE (I used Visual Studio Code)
+4. Navigate to <i>SiteApplication.java</i>  
+  a. <i>(src/main/java/com/site_detector/SiteApplication.java)</i>
 5. Run <i>main</i> method
 6. Open browser localhost:8080
 7. Type in a url (ex: medium.com)
@@ -29,7 +29,6 @@ If you get the endless spinning wheel for the Java Language Server
   2. Disable Debugger for Java
   3. If you're prompted to "Disable All" - Click "Disable All"  
   ![error2](https://user-images.githubusercontent.com/31171295/128935290-de1f2ab7-d91d-4b17-aacb-3ff06392f8ef.png)
-
   5. Reload / Restart VS Code
   6. Go to Disabled Extensions (CTRL+SHIFT+P)
   7. Enable "Debugger for Java"
