@@ -16,12 +16,6 @@ import java.net.UnknownHostException;
 
 @Controller
 public class CheckWebsiteController {
-
-    @RequestMapping(value = "/checkWebsite",  method = RequestMethod.POST)
-    public String checkWebsite() {
-        return "result";
-    }
-
     @RequestMapping(value = "/saveWebsite", method = RequestMethod.POST)
     public ModelAndView save(@ModelAttribute Website site) {
         String url = formatUrl(site.getUrl());
